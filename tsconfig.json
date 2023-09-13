@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": ["cypress", "node"]
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+}
